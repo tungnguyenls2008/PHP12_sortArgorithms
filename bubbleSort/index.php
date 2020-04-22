@@ -13,7 +13,7 @@ function bubbleSort($arr) {
 }
 $arr = [2, 3, 2, 5, 6, 1, -2, 3, 14, 12];
 
-echo "Given array: ".implode(' > ',$arr);
+echo "Given array: ".implode(' | ',$arr);
 echo "<br>";
 $arr = bubbleSort($arr);
 echo "Bubble sorted array: ".implode(' < ',$arr);

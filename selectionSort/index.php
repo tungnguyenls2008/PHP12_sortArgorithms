@@ -24,6 +24,6 @@ function selectionSort($data)
 }
 
 $arr = [1, 9, 4.5, 6.6, 5.7, -4.5];
-echo 'Given array: ' . implode(" < ", $arr);
+echo 'Given array: ' . implode(" | ", $arr);
 echo "<br>";
 echo 'Selection sorted array: ' . implode(" < ", selectionSort($arr));
