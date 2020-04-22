@@ -8,7 +8,7 @@ function insertionSort($data)
         $next=$data[$i];
         for($j=$i-1; $j>=0; $j--)
         {
-            if( $data[$j]>$next )
+            if( $data[$j]<$next )
             {
                 $data[$j+1]=$data[$j];
             }
